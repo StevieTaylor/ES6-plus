@@ -1,7 +1,7 @@
 /*
  * @Author: Stevie
  * @Date: 2021-06-15 15:11:56
- * @LastEditTime: 2021-07-13 21:02:41
+ * @LastEditTime: 2021-07-13 21:14:02
  * @LastEditors: Stevie
  * @Description: 章节和模块配置
  */
@@ -31,6 +31,7 @@ export const chapterMap = {
     name: 'Symbol',
     modules: {
       baseConcepts: '基本概念',
+      internalSymbol: '内置的Symbol值',
     },
     display: true,
   },
