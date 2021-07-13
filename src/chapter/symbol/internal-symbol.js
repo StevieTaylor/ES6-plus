@@ -1,7 +1,7 @@
 /*
  * @Author: Stevie
  * @Date: 2021-07-13 21:13:26
- * @LastEditTime: 2021-07-13 21:32:14
+ * @LastEditTime: 2021-07-13 22:55:52
  * @LastEditors: Stevie
  * @Description: 内置Symbol值
  */
@@ -20,3 +20,10 @@ const arr_iterator = arr[Symbol.iterator]()
 for (let i = 0; i <= arr.length; i++) {
   console.log(arr_iterator.next())
 }
+
+const str = 'iterator'
+const str_iterator = str[Symbol.iterator]()
+for (let i = 0; i <= str.length; i++) {
+  console.log(str_iterator.next())
+}
+
