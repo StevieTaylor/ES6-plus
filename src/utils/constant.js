@@ -1,7 +1,7 @@
 /*
  * @Author: Stevie
  * @Date: 2021-06-15 15:11:56
- * @LastEditTime: 2021-07-13 17:37:36
+ * @LastEditTime: 2021-07-13 21:02:41
  * @LastEditors: Stevie
  * @Description: 章节和模块配置
  */
@@ -23,6 +23,14 @@ export const chapterMap = {
     name: 'Promise',
     modules: {
       promise: 'promise',
+    },
+    display: true,
+  },
+  symbol: {
+    chapterId: 'symbol',
+    name: 'Symbol',
+    modules: {
+      baseConcepts: '基本概念',
     },
     display: true,
   },

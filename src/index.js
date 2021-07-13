@@ -1,7 +1,7 @@
 /*
  * @Author: Stevie
  * @Date: 2021-06-14 22:20:58
- * @LastEditTime: 2021-07-13 17:42:22
+ * @LastEditTime: 2021-07-13 20:23:35
  * @LastEditors: Stevie
  * @Description: 主入口文件
  */
@@ -71,3 +71,4 @@ function loadModule(modules = {}, chapterId = '') {
 loadChapter(chapterMap)
 loadModule(chapterMap.array.modules, chapterMap.array.chapterId)
 loadModule(chapterMap.promise.modules, chapterMap.promise.chapterId)
+loadModule(chapterMap.symbol.modules, chapterMap.symbol.chapterId)
