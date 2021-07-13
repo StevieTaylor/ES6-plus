@@ -1,7 +1,7 @@
 /*
  * @Author: Stevie
  * @Date: 2021-06-14 22:20:58
- * @LastEditTime: 2021-07-08 17:16:45
+ * @LastEditTime: 2021-07-13 17:42:22
  * @LastEditors: Stevie
  * @Description: 主入口文件
  */
@@ -69,4 +69,5 @@ function loadModule(modules = {}, chapterId = '') {
   }
 }
 loadChapter(chapterMap)
-loadModule(chapterMap.example.modules, chapterMap.example.chapterId)
+loadModule(chapterMap.array.modules, chapterMap.array.chapterId)
+loadModule(chapterMap.promise.modules, chapterMap.promise.chapterId)

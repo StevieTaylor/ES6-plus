@@ -1,25 +1,29 @@
 /*
  * @Author: Stevie
  * @Date: 2021-06-15 15:11:56
- * @LastEditTime: 2021-07-08 17:17:39
+ * @LastEditTime: 2021-07-13 17:37:36
  * @LastEditors: Stevie
  * @Description: 章节和模块配置
  */
-export const title = 'JS-template'
+export const title = 'ES6+'
 
 export const chapterMap = {
-  // ~ 章节的文件夹名
-  example: {
-    // ~ 章节id
-    chapterId: 'example',
-    // ~ 章节名
-    name: '一、示例',
-    // ~ 章节内的模块
+  array: {
+    chapterId: 'array',
+    name: '数组',
     modules: {
-      moduleA: '模块A',
-      moduleB: '模块B',
+      arrayEs5: '数组ES5',
+      reduce: 'reduce',
+      flat: 'flat',
     },
-    // ~ 是否展示
+    display: true,
+  },
+  promise: {
+    chapterId: 'promise',
+    name: 'Promise',
+    modules: {
+      promise: 'promise',
+    },
     display: true,
   },
 }
