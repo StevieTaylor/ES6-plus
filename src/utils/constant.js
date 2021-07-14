@@ -1,7 +1,7 @@
 /*
  * @Author: Stevie
  * @Date: 2021-06-15 15:11:56
- * @LastEditTime: 2021-07-13 21:14:02
+ * @LastEditTime: 2021-07-14 14:43:04
  * @LastEditors: Stevie
  * @Description: 章节和模块配置
  */
@@ -32,6 +32,14 @@ export const chapterMap = {
     modules: {
       baseConcepts: '基本概念',
       internalSymbol: '内置的Symbol值',
+    },
+    display: true,
+  },
+  iterator: {
+    chapterId: 'iterator',
+    name: 'Iterator',
+    modules: {
+      iteratorInterface: '迭代器接口',
     },
     display: true,
   },

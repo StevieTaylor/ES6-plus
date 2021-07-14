@@ -1,7 +1,7 @@
 /*
  * @Author: Stevie
  * @Date: 2021-06-14 22:20:58
- * @LastEditTime: 2021-07-13 20:23:35
+ * @LastEditTime: 2021-07-14 14:49:08
  * @LastEditors: Stevie
  * @Description: 主入口文件
  */
@@ -43,7 +43,8 @@ function loadChapter(chapterMap = {}) {
  * @param {*} chapterId
  * @return {*}
  */
-function loadModule(modules = {}, chapterId = '') {
+function loadModule(chapter) {
+  const { modules, chapterId } = chapter
   const chapterNode = document.getElementById(`${chapterId}`)
   for (const key in modules) {
     if (Object.hasOwnProperty.call(modules, key)) {
@@ -69,6 +70,7 @@ function loadModule(modules = {}, chapterId = '') {
   }
 }
 loadChapter(chapterMap)
-loadModule(chapterMap.array.modules, chapterMap.array.chapterId)
-loadModule(chapterMap.promise.modules, chapterMap.promise.chapterId)
-loadModule(chapterMap.symbol.modules, chapterMap.symbol.chapterId)
+loadModule(chapterMap.array)
+loadModule(chapterMap.promise)
+loadModule(chapterMap.symbol)
+loadModule(chapterMap.iterator)
